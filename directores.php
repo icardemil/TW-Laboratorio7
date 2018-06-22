@@ -23,10 +23,10 @@
     <div class="container">
       <?php
         require_once('baseDeDatos.php');
-        $libros = new BD;
-        $libros->conectar();
-        $libros->leer_directores();
-        $libros->close();
+        $directores = new BD;
+        $directores->conectar();
+        $directores->leer_directores();
+        $directores->close();
       ?>
     </div>
   </body>

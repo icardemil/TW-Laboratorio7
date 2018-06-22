@@ -24,9 +24,9 @@
     <div class="container">
       <?php
         require_once('baseDeDatos.php');
-        $equipos = new BD;
-        $equipos->conectar();
-        $equipos->editarDirector();
+        $directores = new BD;
+        $directores->conectar();
+        $directores->editarDirector();
       ?>
     </div>
   </body>

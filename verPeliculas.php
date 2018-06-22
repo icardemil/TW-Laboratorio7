@@ -24,9 +24,10 @@
     <div class="container">
       <?php
         require_once('baseDeDatos.php');
-        $equipos = new BD;
-        $equipos->conectar();
-        $equipos->verPeliculas();
+        $peliculas = new BD;
+        $peliculas->conectar();
+        $peliculas->verPeliculas();
+        $peliculas->close();
       ?>
     </div>
   </body>
